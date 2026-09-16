@@ -11,7 +11,19 @@ Sitio estático de soporte y privacidad; no contiene la aplicación móvil.
 5. Volver a GitHub Pages y activar Enforce HTTPS cuando el certificado esté disponible.
 6. Verificar sin iniciar sesión la página principal, /soporte/ y /privacidad/, los enlaces y ambos idiomas.
 
-El correo configurado es soporte@invertorc.com. La publicación y el certificado aún requieren verificación; la presencia de CNAME no prueba que Pages esté activado.
+El correo confirmado es `support@invertorc.com`, el mismo que usan la aplicación,
+la página de soporte y la política de privacidad.
+
+## Estado comprobado el 16 de septiembre de 2026
+
+- Dominio declarado en `CNAME`: `ruedita.invertorc.com`.
+- Despliegue de referencia: [pages build and deployment](https://github.com/ator89/ruedita-site/actions/runs/34342864724),
+  completado correctamente el 9 de septiembre para `c8a1cf4`.
+- Las páginas de soporte y privacidad incluyen `support@invertorc.com`.
+- Esa evidencia confirma el despliegue de GitHub. La apertura pública mediante
+  HTTPS debe comprobarse por separado, incluida la política desde la app.
+- No hay una comprobación HTTPS nueva documentada en esta revisión. La presencia
+  de `CNAME` o una corrida aprobada no confirma por sí sola DNS ni certificado.
 
 ## Mantenimiento
 
